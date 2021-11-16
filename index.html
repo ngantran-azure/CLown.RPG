@@ -49,15 +49,15 @@ tw-sidebar {
 (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XX=&quot;)[
 #&#39;&#39;Tales of the Foolish Justice&#39;&#39;]
 
-(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XX=&quot;)[[&#39;&#39;Start&#39;&#39;-&gt;Introduction]]</tw-passagedata><tw-passagedata pid="2" name="Introduction" tags="1" position="1125.0000000000002,48.33333333333333" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[This tale is set in a futuristic fantasy medieval alternative world. Except for the magic, everything else is exactly the same as Earth.]
+(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XX=&quot;)[[&#39;&#39;Start&#39;&#39;-&gt;Introduction]]</tw-passagedata><tw-passagedata pid="2" name="Introduction" tags="1" position="1125.0000000000002,48.33333333333333" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[This tale is set in an alternative universe where medieval fantasy intertwines with futurism. Except for the presence of magic, everything else is exactly the same as on our version of Earth.]
 (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[(text-colour:#fcc2d7)[About your job](click-replace:&quot;About your job&quot;)[You work for a secret mail delivery service.
 Your job is to deliver top secret mails to the receiver within the assigned duration.
-Failed to do so would result in the destruction of your family and anyone closed to you
+Failure to do so would result in the destruction of your family and anyone close to you
 
 (text-colour:#d6336c)[[[About the Mission-&gt;Mission]]]
 ]]
-</tw-passagedata><tw-passagedata pid="3" name="Mission" tags="2" position="1004.3333333333335,153" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[(text-colour:#f783ac)[Your mission](click-replace:&quot;Your mission&quot;)[Your mission this time is to deliver a confidential mail to &#39;&#39;sir Earl Modnar&#39;&#39;.
-The mail has to be delivered in 4 days.
+</tw-passagedata><tw-passagedata pid="3" name="Mission" tags="2" position="1004.3333333333335,153" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[(text-colour:#f783ac)[Your mission](click-replace:&quot;Your mission&quot;)[Your current objective is to deliver a confidential letter to &#39;&#39;sir Earl Modnar&#39;&#39;.
+The mail is to be delivered in 4 days.
 
 [(text-colour:#ff6b6b)[Additional information](click-replace:&quot;Additional information&quot;)[&lt;img src=&quot;https://raw.githubusercontent.com/ngantran-azure/CLown.RPG/main/assets/map.jpg&quot;&gt;
 
@@ -73,37 +73,37 @@ Deliver this to his personal butler.
 ]]
 ]]</tw-passagedata><tw-passagedata pid="4" name="Stop at random town" tags="3" position="1137.3333333333333,181.33333333333337" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[
 You have been on the mission for 2 days. Fort Domnaris is only half a day away from the nearest town.
-(after:2s)[Exhausted from being on the horse, you decided to stop at the nearest town and rest for the night. 
+(after:2s)[Exhausted and weary after a long ride, you decided to stop at the nearest town and rest for the night. 
 
 [[Get in town-&gt;Get in town]]
 
 ]]</tw-passagedata><tw-passagedata pid="5" name="Get street food snack" tags="4" position="1013.0000000000001,320.6666666666667" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[=
-You follow the smell of grilled food to a small vendor near the center of the town. 
-(after:3s)[The owner is busy with the orders since it is a pretty famous stall, for both the town peoples and travelers. 
+The smell of skewers on charcoals beckons, and you follow it to a small vendor near the center of town. 
+(after:3s)[The stall seems to be pretty popular with the locals and travelers alike, as the owner catches up with his stack of orders. 
 
 [(text-colour:#ffec99)[Order some skewers]](click-replace:&quot;Order some skewers&quot;)[(text-colour: white)[&lt;img src=&quot;https://raw.githubusercontent.com/ngantran-azure/CLown.RPG/main/assets/vendor.jpg&quot;&gt;
-You get yourself two meat skewers and a veggie one. It tastes like heaven after putting rations in your belly for two days.
+You get yourself two meat skewers and a veggie one. After 2 days of nothing but dry rations in your stomach, these skewers seems like a meal fit for a king.
 
-(after:8s)[Suddenly you hear cheering sound nearby. You decided to walk to the noisy crowd to see what happen
+(after:8s)[Suddenly you hear cheering and hollering nearby. Curious, you make your way towards a crowd that's getting bigger and bigger by the second nearby
 (text-colour:#91a7ff)[[[Get near the crowd-&gt;See clown]]]
 ]]]]</tw-passagedata><tw-passagedata pid="6" name="Get a meal" tags="meal 4 6" position="1335.6666666666667,661.6666666666666" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[=
-You walk past a place called &quot;Fairies&#39;s Hideout&quot;. They have Fairy meat plate on their menu, which is your favourite, so you decided to get it.
+You do some searching and finally happen upon a place called &quot;Fairies&#39;s Hideout&quot;. True to their namesake, the Fairy meat plate is one of their signature dishes, which also happens to be your favourite. 
 [(text-colour:#ffec99)[Order Fairy meat plate]](click-replace:&quot;Order Fairy meat plate&quot;)[(text-colour: white)[&lt;img src=&quot;https://raw.githubusercontent.com/ngantran-azure/CLown.RPG/main/assets/meal.jpg&quot;&gt;
-The waitress put the meat plate on to your table with a big smile. &quot;Great choice&quot;, she said. You happily diving into the meaty goodness.
-Halfway through the plate, you notice a gross eating sound behind you. 
+The waitress place the meat plate on to your table with a big smile. &quot;Great choice&quot;, she said. You dig into the meaty dish with no small amount of delectation.
+Halfway through your meal, you notice a gross chewing sound behind you. 
 (if:(history: where its name contains &quot;Get in town&quot; or &quot;Get some rest&quot;)&#39;s length &gt;= 1)[(text-colour:#ffec99)[[[Look back-&gt;Messy clown]]]]]
 (if:(history: where its name contains &quot;Get rest 2&quot;)&#39;s length &gt;= 1)[(text-colour:#8ce99a)[[[Look to the noise-&gt;Involved in fight (w/o clown)]]]
 ]]</tw-passagedata><tw-passagedata pid="7" name="Get some rest" tags="rest 4 6 no" position="1504.6666666666667,559.0000000000001" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[=
-You found a decent motel. (after:1s)[The price is only 15 coins but you get a medium quality room.
-(after:3s)[&lt;img src=&quot;https://raw.githubusercontent.com/ngantran-azure/CLown.RPG/main/assets/motel.jpg&quot;&gt; 
-You checked in with the cute receptionist. Your room number is (after:5s)[(text-colour:red)[666]].
+Eventually, you found yourself a decent motel nearby. (after:2s)[You pay 15 coins for a room of middling quality.
+(after:4s)[&lt;img src=&quot;https://raw.githubusercontent.com/ngantran-azure/CLown.RPG/main/assets/motel.jpg&quot;&gt; 
+You check in with the receptionist, whom you find quite easy on the eyes. Your room number is (after:7s)[(text-colour:red)[666]].
 
-(after:7s)[Sadly the motel doesn&#39;t provide food. After taking your horse to the stable and putting your bag in the room, you go out and get some food.
+(after:7s)[Unfortunately the motel does not provide dining service. After taking your horse to the stable and putting your bag in the room, you go out and get some food.
 
 (text-colour:#96f2d7)[[[Get some food-&gt;Get a meal]]]]]]</tw-passagedata><tw-passagedata pid="8" name="Stay n watch" tags="stay 5" position="1021,572.6666666666667" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[=
 (bg:(hsl:210,0.0875,0.3137,0.9))[= You decided to relax a bit by watching the clown performance. 
 (after:2s)[The clown seems to be a young girl around 14-15 years old. (after:4s)[She does a lot of tricks, but she seems to do best at juggling.(after:6s)[ Throw stuff at her and she can juggling with her props and the thrown object. 
-;
+&lt;img src=&quot;ccc&quot;&gt;
 [Continue to watch](click-replace:&quot;Continue to watch&quot;)[
 Someone throw a knife at her out of spite. The crowd gasp while she skillfully dodge the hateful knife. 
 The striker run away right when they see her dodge the knife.
@@ -155,39 +155,38 @@ Yren take you to a small little family restaurant called &#39;&#39;&quot;Monster
 The waiter bring up 2 bowls of noodles. Your nose is immediately hit by the herby aromatic smell of the Arets noodles. The bowl is filled with sliced pork, spring onions and beef balls. 
 (after:16s)[You were charmed by the visual of the dish that after going through half of it, you remembered your intention to know more about your sudden companion.
 (after:18s)[(text-colour:#91a7ff)[[[Look up-&gt;pre-fight]]]]]]]]]]</tw-passagedata><tw-passagedata pid="14" name="Insult clown" tags="7 Black2Red" position="1344.3333333333335,998.6666692097982" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[=
-The thug, angered from Yren&#39;s refusal, sneer at her:
-&quot;For fuck sake, you clowns are just trash. You stupid clown should do your stupid tricks when people[...](after:6s)+(replace:&quot;...&quot;)+(text-style:&quot;rumble&quot;)[ &#39;&#39;FUCKING ASKED YOU TO&#39;&#39;&quot;
+The thug, angered from Yren&#39;s refusal, sneer at her through clenched teeth:
+&quot;Know your fucking place, will ya? You clowns are only good for one thing: do your stupid tricks when people[...](after:6s)+(replace:&quot;...&quot;)+(text-style:&quot;rumble&quot;)[ &#39;&#39;FUCKING ASKED YOU TO&#39;&#39;&quot;
 
-(after:8s)[The guy screamed at Yren&#39;s face.
-The atmostphere is getting more intense. You don&#39;t want to be involved in any fight so you decided to leave.
+(after:8s)[He screams the last part out loud.
+The atmosphere is definitely getting more intense. You don&#39;t want any part in what&#39;s about to happen, so you get up and leave.
 [Leave the table](click-replace:&quot;Leave the table&quot;)[
 Before you leave, you said to the young clown:
 //&#39;&#39;&quot;You know, if I was you, I would just do my job&quot;&#39;&#39;//
 
-You saw the lady glares at you, but that is none of your business anyway. Fighting sounds coming from the restaurant can still be heard from a block away.
+The young lady in clown makeup gives you a withering glare as you turn to leave. Sounds of fighting can still be heard even as you are already a block away from the restaurant.
 (text-colour:#f03e3e)[[[Go back to your room-&gt;Sleep]]]
 ]]]</tw-passagedata><tw-passagedata pid="15" name="Get rest 2" tags="rest-2" position="828.6666666666666,692.3333358764648" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[=
-You found a decent motel. The price is only for 15 coins a medium quality room.
-(after:2s)[You checked in with the cute receptionist. Your room number is [888].
+Eventually, you found yourself a decent motel nearby. You pay 15 coins for a room of middling quality.(after:2s)[You checked in with the cute receptionist. Your room number is [888].
 (click:&quot;888&quot;)[It&#39;s on the 8th floor so there will be less noise and you&#39;d have a better sleep.
 (after:8s)[Sadly the motel doesn&#39;t provide food. After taking your horse to the stable and putting your bag in the room, you go out and get some food.
 
 
 (text-colour:#8ce99a)[[[Grab some food-&gt;Get a meal]]]]]]</tw-passagedata><tw-passagedata pid="16" name="Ending 1: Being assassinated" tags="Ending:Bad" position="1351,1442" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[=
-(text-colour:white)+(bg:(hsl:339,0.6797,0.4529,0.3))[= You wake up in the middle of the night by a rustling sound. Instinctively, you tried to reach for the secret mail but all your limbs are tied into the corner of the bed. 
-(after:2s)[You try look to the where the noise is, and to your surprise, Yren was sitting there burning the confidential letter. 
-(after:4s)[&quot;//&#39;If I was you, I would just do my job&#39; ?//&quot;, Yren repeat your sentence back in the restaurant. 
-&#39;&#39;//&quot;(after:6s)[You.](after:7s)[ Don&#39;t. ] (after:7s)[Have. ] (after:8s)[The. ](after:9s)[Right. ](after:10s)[To. ](after:11s)[Tell. ](after:12s)[Me. ](after:13s)[What. ](after:14s)[To. ](after:15s)[Do]&quot;//&#39;&#39; (after:17s)[, she growl while punching you after each word.
-(after:19s)[You barely hold your consiousness after the punches, but Yren already poor a weird liquid down your throat.
-(after:21s)[//&quot;I don&#39;t usually fight people you know? If anyone make me a fool without my consent, they usually disappear the next day&quot;// (after:23s)[was the last thing you heard in your life
+(text-colour:white)+(bg:(hsl:339,0.6797,0.4529,0.3))[= You wake up in the middle of the night to the sound of crackling nearby. Instinctively, you reach for the confidential letter that you're supposed to safeguard. But you soon find yourself immobile as all four of your limbs are tied to the bedposts. 
+(after:2s)[You try to identify the source of the noise, and to your surprise, you find Yren casting the letter into the fireplace. 
+(after:4s)[&quot;//&#39;If I was you, I would just do my job&#39;, you said ?//&quot;, Yren echoes the words that you said to her in the restaurant.. 
+&#39;&#39;//&quot;(after:6s)[You.](after:7s)[ Don&#39;t. ] (after:7s)[Have. ] (after:8s)[The. ](after:9s)[Right. ](after:10s)[To. ](after:11s)[Tell. ](after:12s)[Me. ](after:13s)[What. ](after:14s)[To. ](after:15s)[Do]&quot;//&#39;&#39; (after:17s)[, spits Yren while she punches you after every word.
+(after:19s)[You are barely holding on to your consciousness after the brutal pummeling, and you notice a strange liquid being poured down your throat all too late.
+(after:21s)[//&quot;I don&#39;t usually f stoop to brawling you know. If someone were to make a fool out of me, i have many other ways to silent them forever&quot;// (after:23s)[the words barely register in your mind as you feel yourself leaving the mortal coil.
 (after:24s)[(text-colour:white)+(bg:(hsl:206,1,0.8235,0.8))[[End of tale-&gt;Restart]]]]]]]]]</tw-passagedata><tw-passagedata pid="17" name="Ending 2: Clown helped" tags="Ending:good good-" position="1197,1311.6666564941409" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[=
-(bg:(hsl:210,0.0875,0.3137,0.9))[= (after:2s)[After knocking most of the thugs, she go back to their leader.
+(bg:(hsl:210,0.0875,0.3137,0.9))[= (after:2s)[After reducing the thug to a pathetic heap on the floor, she goes to the table where his friends sit there in shock.
 [&#39;&#39;//(after:4s)[&quot;Don&#39;t.](after:5s)[ Fucking.] (after:6s)[Try.] (after:7s)[To. ](after:8s)[Make. ](after:9s)[Me. ](after:10s)[A. ](after:11s)[Fool&quot;]//&#39;&#39; (after:13s)[,(if:(history: where its name contains &quot;Involved in fight (w/o clown)&quot;)&#39;s length &gt;= 1)[ the young lady](if:(history: where its name contains &quot;Clown got insulted&quot;)&#39;s length &gt;= 1)[Yren] whispered to the one insulted her earlier while strangling him. Once the guy passed out, she release him.
 
-(after:15s)[She look at you, wiping her blood stained hands, smiling brightly again.
+(after:15s)[She then looks at you, wiping her blood-stained hands with a napkin all while smiling brilliantly.
 (after:17s)[(if:(history: where its name contains &quot;pre-fight&quot;)&#39;s length &gt;= 1)[//&quot;I guess the answer is clear to you huh?&quot;//]
-(after:18s)[//&quot;I&#39;m glad you are nice to me. I don&#39;t usually fight people you know? If anyone make me a fool without my consent, they usually disappear the next day&quot;//
-(after:20s)[And that&#39;s the last thing you heard from (if:(history: where its name contains &quot;Involved in fight (w/o clown)&quot;)&#39;s length &gt;= 1)[ the young clown](if:(history: where its name contains &quot;Clown got insulted&quot;)&#39;s length &gt;= 1)[Yren]. She leave immediately after paying for the damage.
+(after:18s)[//&quot;I&#39;m glad you are nice to me. I don&#39;t usually fight people you know? If anyone make me a fool out of me, i have many other ways to silence them... forever&quot;//
+(after:20s)[The words, uttered with equal amounts of gratutitude and thinly veiled malice, sticks to your mind as she left the scene.
 
 (text-colour:white)+(bg:(hsl:206,1,0.8235,0.8))[[End of tale-&gt;Restart]]]]]]]]]</tw-passagedata><tw-passagedata pid="18" name="Involved in fight (w/o clown)" tags="oh" position="859.3333333333333,942.3333333333333" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[=
 You look back at the table. (after:2s)[It&#39;s a group of gangster who are loudly eating their feast. (after:4s)[ Other customers are also grossly looking at them in secret.
@@ -202,39 +201,38 @@ You returned to your room. (after:2s)[You feel bad for the clown since she might
 (after:6s)[You change into your sleep gown and getting on your bed.
 (after:8s)[You starting to feel sleepy...
 (after:10s)[Your eyelids are getting heavy...
-(after:12s)[(text-colour:#f03e3e)[[[Fall asleep-&gt;Ending 1: Being assassinated]]]]]]]]]</tw-passagedata><tw-passagedata pid="20" name="Get in town" tags="no" position="1297.3333333333333,252.33333333333337" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[= You walk into the medium size town. 
+(after:12s)[(text-colour:#f03e3e)[[[Fall asleep-&gt;Ending 1: Being assassinated]]]]]]]]]</tw-passagedata><tw-passagedata pid="20" name="Get in town" tags="no" position="1297.3333333333333,252.33333333333337" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[= You make your way towards the medium size town. 
 (after:2s)[Since it&#39;s close to Fort Domnaris, a fair amount of travelers also stop here to rest.
 
-(after:4s)[You can hear your stomach rumble from the hunger. Your body is also exhausted from the long journey. But there&#39;s a food stall nearby that charms you with its delicious smell.
+(after:4s)[The journey thoroughly tired you out. From the corner of your eye, there&#39;s a modest food vendor that charms you with a variety of delightful scents.
 
 (after:6s)[What would you do?
 (after:7s)[(text-colour:#ffc078)[[[Grab meat skewers from vendor-&gt;Get street food snack]]]
 (after:8s)[(text-colour:#ffec99)[[[Get food at a restaurant-&gt;Get a meal]]]
 (after:9s)[(text-colour:#96f2d7)[[[Get a place to rest-&gt;Get some rest]]]]]]]]]</tw-passagedata><tw-passagedata pid="21" name="See clown" tags="stay" position="1125,429.33333333333337" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[=
-(bg:(hsl:210,0.0875,0.3137,0.9))[= You got to the noisy crowd that catch your attention earlier. 
-(after:2s)[Apparently, there is a clown performing on the street that draws a lot of attention. 
+(bg:(hsl:210,0.0875,0.3137,0.9))[= You look past the crowd towards a most curious sight: (after:2s)[a clown performing on the street to a delighted crowd 
 
-(after:4s)[You can stay and watch the performance since you decided to stay the night here. But you can also focus on the mission and protect the confidential letter by not wandering places
+(after:4s)[You can stay and watch the performance since you decided to stay the night here.  Or, you can get back to your mission, which is safeguarding the letter, and not linger
 (after:6s)[(text-colour:#96f2d7)[[[Focus on the mission-&gt;Leave]]]
 (after:7s)[(text-colour:#ffec99)[[[Stop to watch the clown-&gt;Stay n watch]]]]]]]</tw-passagedata><tw-passagedata pid="22" name="Clown got insulted" tags="Black1Red" position="1189.3333333333335,994.6666692097983" size="100,100">
 (align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[=
 &quot;Hey everyone, seems like we have a clown in da house tonight. 
 Why don&#39;t &#39;&#39;//miss Yren// &#39;&#39;here give us a show (text-style:&quot;shudder&quot;)+(text-style:&quot;bold&quot;)[huh?](click:&quot;huh?&quot;)[
 &quot;Hmm?&quot;
-&quot;Come on, show us your trick young lady&quot;, the thug slaps her back while loudly bully her.
+&quot;C&#39;mon, show us your trick young lady&quot;, the thug slaps her back with a meaty hand while bludgeoning her with taunts.
 [Stay silent](click-replace:&quot;Stay silent&quot;)[
-Yren choked on her food a bit from the slap, but quickly calm down with water.
+The slap sends whatever Yren was chewing down the wrong pipe. She chokes a bit but manages to calm herself with a gulp of water.
 //coughs//&quot;//... I only perform &#39;&#39;once&#39;&#39; a day. I already did it ealier. You &#39;&#39;missed&#39;&#39; the show my guy.//&quot;
 
-You can feel the tension is rising in their conversation.(if:(history: where its name contains &quot;Messy clown&quot;)&#39;s length &gt;= 1)[ You can either leave and go back to your room, or interfere.
+You can feel the heat in their traded barbs.(if:(history: where its name contains &quot;Messy clown&quot;)&#39;s length &gt;= 1)[ You can either leave and go back to your room, or interfere.
 (text-colour:#f03e3e)[[[Leave the scene-&gt;Insult clown]]]]
 (text-colour:#91a7ff)[[[Interfere-&gt;Involved in a fight (w/clown)]]]
 ]]</tw-passagedata><tw-passagedata pid="23" name="Messy clown" tags="" position="1183.3333333333335,794.6666666666666" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[=
-You look back at the table. (after:2s)[It&#39;s a young clown who is barbaricly eating a Fairy meat plate. (after:4s)[Other customers are also grossly looking at the clown.
-(after:6s)[A group of gangster-looking men is staring at the clown. One of them stands up and walks to the table.
+You look behind (after:2s)[and see the young clown from before, who&#39;s devouring her own Meat plate with almost barbaric fervor. (after:4s)[The other patrons cease their dining and fix the Clown with hard, disgusted stares.
+(after:6s)[Among them is a group of menacing-seeming group of ne&#39;er-do-wells. One of them stands up and stalks towards the clown&#39;s table.
 
-(after:8s)[The guy seems to be dangerous so you decided to sit back and watch.
-(text-colour:#ff8787)[[[Observing the situation-&gt;Clown got insulted]]]]]]]</tw-passagedata><tw-passagedata pid="24" name="pre-fight" tags="" position="1042.3333333333333,1080.6666564941406" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[=
+(after:8s)[The way you see it, there is bound to trouble soon. So you just sit back and watch.
+(text-colour:#ff8787)[[[Observe the situation-&gt;Clown got insulted]]]]]]]</tw-passagedata><tw-passagedata pid="24" name="pre-fight" tags="" position="1042.3333333333333,1080.6666564941406" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[=
 you looked up and a splash of broth flew up on your face. (after:2s)[You can see the young lady in front of you eating the noodle bowl like an animal.
 (after:4s)[She feel your stare and look up to your confused looking face. (after:6s)[//&quot;Sorry&quot;//, (after:7s)[Yren apologize while wiping the broth droplet on my face. 
 (after:9s)[I tried to ease the awkward atmostphere, 
@@ -243,12 +241,12 @@ you looked up and a splash of broth flew up on your face. (after:2s)[You can see
 (after:16s)[Right when she open her mouth, a group of thugs enter the restaurant. We both look at the new group of guests. 
 (after:18s)[They definitely know Yren, because they approach your table immediately
 (text-colour:#91a7ff)[[[Observing the situation-&gt;Clown got insulted]]]]]]]]]]]]</tw-passagedata><tw-passagedata pid="25" name="Ending 2: Clown helped 1" tags="fight" position="1053.3333333333333,1244" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[=
-(bg:(hsl:210,0.0875,0.3137,0.9))[= You was about to accept the punch when you didn&#39;t feel any forceful contact on your face. 
-(after:2s)[You open your eyes to see a colorful paddle stopped the thug&#39;s fist. It was one of (if:(history: where its name contains &quot;Involved in fight (w/o clown)&quot;)&#39;s length &gt;= 1)[ the young clown&#39;s](if:(history: where its name contains &quot;Clown got insulted&quot;)&#39;s length &gt;= 1)[Yren&#39;s] props. 
-(after:5s)[You look at her, she doesn&#39;t have the cheery bubbly expression on anymore. (after:7s)[Her eyes right now could kill a person.
-(after:9s)[(text-size:1.3)[&#39;&#39;And it does&#39;&#39;]
-(after:12s)[She handled the thugs by herself using the colorful but dangerous props. 
-(after:14s)[Who knows her juggling balls contain acid inside? Who knows the innocent looking young clown could knock someone down so easily.
+(bg:(hsl:210,0.0875,0.3137,0.9))[= You were waiting for the punch to connect, but it never does.  
+(after:2s)[You open your eyes to see a colorful paddle stopped the thug&#39;s fist dead in its track. Wait...are they (if:(history: where its name contains &quot;Involved in fight (w/o clown)&quot;)&#39;s length &gt;= 1)[ the young clown&#39;s](if:(history: where its name contains &quot;Clown got insulted&quot;)&#39;s length &gt;= 1)[Yren&#39;s] props. 
+(after:5s)[You look at her, and take note of the fact that her bubble, cheerful expression has been replaced. (after:7s)[She looks like she could kill someone right now
+(after:9s)[(text-size:1.3)[&#39;&#39;And she does&#39;&#39;]
+(after:12s)[She handled the thugs with all manners of props. 
+(after:14s)[Who knows her juggling balls contain acid inside? would have thought a street clown could be so intent and capable of taking down a thug twice her size?
 
 (text-colour:#a5d8ff)[[Froze from the violence-&gt;Ending 2: Clown helped]]]]]]]]
 </tw-passagedata><tw-passagedata pid="26" name="Restart" tags="" position="722.7999877929688,1541" size="100,100">(align:&quot;=&gt;&lt;=&quot;)+(box:&quot;=XXXXXXXX=&quot;)[=
